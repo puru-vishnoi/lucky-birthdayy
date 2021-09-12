@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+html {
+  scroll-behavior: smooth;
+}
+
+.App {
+  width: 100%;
+  height: 100%;
+  font-family: "Open Sans", sans-serif;
+  color: black;
+}
+
+.App .box {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.App .main h1 {
+  font-family: "Open Sans", sans-serif;
+  background-color: yellow;
+  min-width: 500px;
+  padding: 10px 30px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+}
+
+.App .main button {
+  margin: 20px;
+  padding: 15px 10px;
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  border: 1px solid white;
+  border-radius: 6px;
+  background-color: blue;
+}
+
+.App .main button a {
+  color: white;
+  text-decoration: none;
+}
+
+.App .main button:hover {
+  background-color: rgba(16, 92, 139, 0.9);
+}
+
+.App .main .box2 {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  height: 100%;
+}
+
+.App .main .box2 .privacynotice {
+  margin: 20px;
+  width: 400px;
+  margin-top: 20px;
+}
+
+.App .main .box2 .privacynotice .noticeinner {
+  border: 2px solid black;
+  border-radius: 4px;
+  padding: 10px 10px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.App .main .box2 .privacynotice .noticeinner .close {
+  margin: auto;
+  cursor: pointer;
+  position: absolute;
+  top: 4px;
+  left: 350px;
+  background-color: grey;
+  width: 10px;
+  height: 20px;
+  border: 2px solid grey;
+}
+
+.App .main .box2 .privacynotice span {
+  font-size: 16px;
+  color: red;
+}
+
+.App .main .box2 .formcontainer {
+  margin: 20px;
+  position: relative;
+  height: 100%;
+  width: 50%;
+}
+
+.App .main .box2 .formcontainer .form-data {
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App .main .box2 .formcontainer .form-data label {
+  margin-bottom: 20px;
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.App .main .box2 .formcontainer .form-data input {
+  height: 35px;
+  width: 150px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.App .main .box2 .formcontainer .footer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.output {
+  width: 300px;
+  text-align: center;
+  margin: 0px;
+  background-color: yellow;
+  border-radius: 10px;
+}
+
+.list-non-bullet {
+  list-style: none;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 10px;
+}
+
+.footer {
+  margin-top: 100px;
+  padding: 4px;
+  text-align: center;
+}
+
+.footer ul {
+  padding: 8px;
+  text-decoration: none;
+}
+
+.footer .link {
+  color: white;
+}
